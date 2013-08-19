@@ -1,0 +1,288 @@
+@CHARSET "ISO-8859-1";
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -7em;
+	padding-right: 1em;
+	padding-left: 1em;    
+}
+
+.footer, .push {
+    height: 7em;
+	clear: both; 
+	padding-right: 1em;
+	padding-left: 1em; 
+}
+
+.spacer {    
+	padding-bottom: .5em; 
+}
+
+.redButton {
+    background: url("../images/red100.png") no-repeat scroll 0% 0% transparent;
+        background-color: transparent;
+        background-image: url("../images/red100.png");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+    border: 0px solid;
+        border-top-width: 0px;
+        border-right-width-value: 0px;
+        border-right-width-ltr-source: physical;
+        border-right-width-rtl-source: physical;
+        border-bottom-width: 0px;
+        border-left-width-value: 0px;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-top-style: solid;
+        border-right-style-value: solid;
+        border-right-style-ltr-source: physical;
+        border-right-style-rtl-source: physical;
+        border-bottom-style: solid;
+        border-left-style-value: solid;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-top-color: -moz-use-text-color;
+        border-right-color-value: -moz-use-text-color;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+        border-bottom-color: -moz-use-text-color;
+        border-left-color-value: -moz-use-text-color;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+    cursor: pointer;
+    width: 100px;
+    height: 23px;
+    font-size: 12px;
+    margin: 2px;
+        margin-top: 2px;
+        margin-right-value: 2px;
+        margin-bottom: 2px;
+        margin-left-value: 2px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    font-family: verdana;
+}
+
+.greyButton {
+    background: url("../images/grey100.png") no-repeat scroll 0% 0% transparent;
+        background-color: transparent;
+        background-image: url("../images/grey100.png");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+    border: 0px solid;
+        border-top-width: 0px;
+        border-right-width-value: 0px;
+        border-right-width-ltr-source: physical;
+        border-right-width-rtl-source: physical;
+        border-bottom-width: 0px;
+        border-left-width-value: 0px;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-top-style: solid;
+        border-right-style-value: solid;
+        border-right-style-ltr-source: physical;
+        border-right-style-rtl-source: physical;
+        border-bottom-style: solid;
+        border-left-style-value: solid;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-top-color: -moz-use-text-color;
+        border-right-color-value: -moz-use-text-color;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+        border-bottom-color: -moz-use-text-color;
+        border-left-color-value: -moz-use-text-color;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+    color: rgb(228, 31, 53);
+    vertical-align: middle;
+    cursor: pointer;
+    width: 100px;
+    height: 23px;
+    font-size: 12px;
+    margin: 2px;
+        margin-top: 2px;
+        margin-right-value: 2px;
+        margin-bottom: 2px;
+        margin-left-value: 2px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    font-family: verdana;
+}
+
+body {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 10pt;
+}
+
+hr {
+    height: 5px;
+    color: red;
+    background-color: red;
+}
+
+a, a:active, a:visited {
+    color: rgb(96, 120, 144);
+}
+
+table {
+	border-collapse:collapse;
+}
+
+.thinBlack {
+	border: 1px solid #000000;
+}
+
+.thinGray {
+	border: 1px solid #cecece;
+}
+
+.blackhead {
+   color: black;  
+   font-size: 13pt;
+} 
+
+.redhead {
+   color: red;  
+   font-size: 12pt;
+} 
+
+.message {
+   padding-top: .5em; 
+   color: red;     
+   font-size: 10pt;
+}
+
+.links {
+	color: #3BA2C5;
+	font-weight: bold;
+}
+
+.patientTablehead {
+	background-color: rgb(146, 211, 225);
+	color:white;
+}
+
+.scriptTablehead {
+	background-color: #FFFFCC;
+}
+
+.userCompany {
+	border: 0px;
+}
+
+.logOffLink {
+	color: black;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.footerLink {
+	font: 11px/1.231 Verdana,Geneva,sans-serif;
+    font-family: Verdana,Geneva,sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 1.231;
+    font-size-adjust: none;
+    font-stretch: normal;
+    -x-system-font: none;
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+	text-decoration:none;
+}
+
+#footer h5 {
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0px 0px 2px;
+        padding-top: 0px;
+        padding-right-value: 0px;
+        padding-bottom: 2px;
+        padding-left-value: 0px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+    border-bottom: 1px dotted rgb(200, 200, 210);
+        border-bottom-width: 1px;
+        border-bottom-style: dotted;
+        border-bottom-color: rgb(200, 200, 210);
+    margin: 0px 0px 2px;
+        margin-top: 0px;
+        margin-right-value: 0px;
+        margin-bottom: 2px;
+        margin-left-value: 0px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+}
+
+#footer ul {
+    list-style: none outside none;
+        list-style-type: none;
+        list-style-image: none;
+        list-style-position: outside;
+    margin: 0px;
+        margin-top: 0px;
+        margin-right-value: 0px;
+        margin-bottom: 0px;
+        margin-left-value: 0px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    padding: 0px;
+        padding-top: 0px;
+        padding-right-value: 0px;
+        padding-bottom: 0px;
+        padding-left-value: 0px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+}
