@@ -1,7 +1,5 @@
 package com.cardinal.ws.rest;
 
-import java.util.Date;
-
 public class Person {
 
 	private String firstName;

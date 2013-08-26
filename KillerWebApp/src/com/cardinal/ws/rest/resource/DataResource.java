@@ -1,14 +1,9 @@
 package com.cardinal.ws.rest.resource;
 
-<<<<<<< HEAD
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.Map;
-=======
-import java.util.Date;
->>>>>>> abcd982aae5736f854df31d612dcdc602c5149ed
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -18,11 +13,8 @@ import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-<<<<<<< HEAD
 import com.cardinal.ws.rest.Person;
 
-=======
->>>>>>> abcd982aae5736f854df31d612dcdc602c5149ed
 
 @Path(value = "/theData")
 public class DataResource {
@@ -33,7 +25,6 @@ public class DataResource {
 		
     	Response.ResponseBuilder builder = Response.ok();
     	
-<<<<<<< HEAD
     	Person tim = new Person();
     	tim.setFirstName("Tim");
     	tim.setLastName("Johnson");    	
@@ -54,13 +45,6 @@ public class DataResource {
 		try {
     	
 			builder = Response.ok(myMap, MediaType.APPLICATION_JSON);
-=======
-		Date d = new Date();
-		
-		try {
-    	
-			builder = Response.ok(d, MediaType.APPLICATION_JSON);
->>>>>>> abcd982aae5736f854df31d612dcdc602c5149ed
 			
     	}
         catch (Exception e) {
