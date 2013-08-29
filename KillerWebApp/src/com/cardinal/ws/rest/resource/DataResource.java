@@ -35,11 +35,11 @@ public class DataResource {
     	jerry.setLastName("Allison");    	
     	jerry.setFavoriteMovie("Jerry Gone Wild: College Years");    	
     	
-    	List peeps = new ArrayList<Person>();
+    	List<Person> peeps = new ArrayList<Person>();
     	peeps.add(tim);
     	peeps.add(jerry);
     	
-    	Map myMap = new HashMap();
+    	Map<String, List<Person>> myMap = new HashMap<String, List<Person>>();
     	myMap.put("items", peeps);
     	
 		try {
